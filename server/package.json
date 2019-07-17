@@ -1,0 +1,17 @@
+{
+  "name": "cheese-log-server",
+  "version": "1.0.0",
+  "description": "Full_Stack_App_Node",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.2.7",
+    "mongoose": "5.3.1"
+  }
+}

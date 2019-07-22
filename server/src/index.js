@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 cors(app)
-// routes(app)
+routes(app)
 
 app.listen(port)
 console.log('The great cheese log server is running on port ' + port)
